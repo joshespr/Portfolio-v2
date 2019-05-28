@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-function Navbar(props) {
+function Nav(props) {
 
     // <li><a href="/info">Trail info</a></li>  
     // <li><a href="/passport">Passport</a></li>  
@@ -21,4 +21,4 @@ function Navbar(props) {
     );
 }
 
-export default Navbar;
+export default Nav;
