@@ -1,0 +1,20 @@
+.sidebar {
+    position: fixed;
+    bottom: 32vh;
+}
+
+.sidebar ul {
+    position: fixed;
+    list-style: none;
+}
+
+.sidebar ul li {
+    color: grey;
+    padding: 15px 0;
+    font-size: 3vh;
+}
+
+.sidebar ul li:hover {
+    color: orange;
+    font-size: 3.1vh;
+}
