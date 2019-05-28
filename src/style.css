@@ -11,5 +11,10 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-  }
-  
+}
+
+.hyperlink {
+    color: orange;
+    transition: .3s;
+    text-decoration: none; 
+}
