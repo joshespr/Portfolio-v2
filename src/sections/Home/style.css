@@ -1,6 +1,11 @@
+.title-wrapper {
+    padding: 15% 18%;
+}
+
 .title-1 {
     /* transform: translate(-50%, -50%); */
-    font-size: 90px;
+    /* font-weight: bold; */
+    font-size: 95px;
     color: orange;
     z-index: 1;
     /* -webkit-text-stroke: 2px orange; */
@@ -19,16 +24,21 @@
 }
 
 .subtitle {
-    width: 36%;
+    width: 100%;
     color: grey;
     font-weight: lighter;
-    font-size: 14px;
+    font-size: 25px;
     line-height: 24px;
+}
+
+.title-link {
+    margin: 15px 0;
+    font-size: 25px;
 }
 
 .pattern {
     position: absolute;
-    left: 20%;
+    left: 15%;
     width: 60%;
     height: 100vh;
     background: url(../../images/BG_Pattern.png) no-repeat 50% 50%;
