@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import "./style.css";
 
-class About extends Component {
+class Contact extends Component {
 
   render() {
     return (
       <React.Fragment>
+        <div className="pattern"></div>
         <div className="title-wrapper">
-          <div className="title-1"><span className="ul">About <span className="title-2">Me</span></span></div>
+          <div className="title-1">Contact <span className="title-2">Me</span></div>
           <div className="subcontent">
             <p>
             In West Philadelphia, born and raised. 
@@ -32,4 +33,4 @@ class About extends Component {
   }
 }
 
-export default About;
+export default Contact;

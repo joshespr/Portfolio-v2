@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
+import { Link, animateScroll as scroll } from "react-scroll";
 import "./style.css";
 import Nav from './components/Nav';
 import Section from './components/Section';
 import Sidebar from './components/Sidebar';
 import Home from './sections/Home';
 import About from './sections/About';
+import Skills from './sections/Skills';
+import Project from './sections/Project';
+import Contact from './sections/Contact';
 
 
 class App extends Component {
@@ -14,12 +18,47 @@ class App extends Component {
       <React.Fragment>
         
         <Nav>
-          <li><a href="#home">Home</a></li>  
-          <li><a href="#about">About</a></li>  
-          <li><a href="#skills">Skills</a></li>  
-          <li><a href="#project">Project</a></li>  
-          <li><a href="#contact">Contact</a></li>  
+          <a href="#">
+          <li>
+          <Link activeClass="active" to="home" spy={true} smooth={true} offset={20} duration= {750}>
+          Home
+          </Link>
+          </li>
+          </a>
+
+          <a href="#">
+          <li>
+          <Link activeClass="active" to="about" spy={true} smooth={true} offset={20} duration= {750}>
+          About
+          </Link>
+          </li>
+          </a>
+
+          <a href="#">
+          <li>
+          <Link activeClass="active" to="skills" spy={true} smooth={true} offset={120} duration= {750}>
+          Skills
+          </Link>
+          </li>
+          </a>
+
+          <a href="#">
+          <li>
+          <Link activeClass="active" to="project" spy={true} smooth={true} offset={20} duration= {750}>
+          Project
+          </Link>
+          </li>
+          </a>
+
+          <a href="#">
+          <li>
+          <Link activeClass="active" to="contact" spy={true} smooth={true} offset={20} duration= {750}>
+          Contact
+          </Link>
+          </li>
+          </a>
         </Nav>
+        
         <Sidebar />
 
         <Section label="home">
@@ -28,6 +67,18 @@ class App extends Component {
 
         <Section label="about">
           <About />
+        </Section>
+
+        <Section label="skills">
+          <Skills />
+        </Section>
+
+        <Section label="project">
+          <Project />
+        </Section>
+
+        <Section label="contact">
+          <Contact />
         </Section>
 
       </React.Fragment>

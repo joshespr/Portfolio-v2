@@ -1,4 +1,5 @@
 .section {
-    height: 110vh;
+    min-height: 110vh;
+    height: auto;
     width: 100%;
 }

@@ -1,5 +1,5 @@
-#about {
-    background: #f1f1f1;
+#contact {
+    background: #333;
 
 }
 
@@ -9,4 +9,9 @@
     font-weight: lighter;
     font-size: 25px;
     line-height: 175%;
+}
+
+.underline {
+    width: 45.5vh;
+    border-bottom: 2.5px solid orange;
 }

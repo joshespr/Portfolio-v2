@@ -18,3 +18,12 @@ body {
     transition: .3s;
     text-decoration: none; 
 }
+
+.ul {
+    border-bottom: 2.5px solid orange;
+}
+
+.active {
+    border-bottom: none;
+    color: #f7a434;
+}

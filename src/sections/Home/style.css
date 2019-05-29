@@ -3,22 +3,22 @@
 }
 
 .title-1 {
-    /* transform: translate(-50%, -50%); */
     font-size: 95px;
     color: orange;
+    width: 100%;
     /* -webkit-text-stroke: 2px orange; */
-    /* text-transform: uppercase; */
+    /* transform: translate(-50%, -50%); */
 }
 
 .title-2 {
-    /* transform: translate(-50%, -50%); */
     font-size: 90px;
     color: rgba(0,0,0,0);
     -webkit-text-stroke: 2px orange;
-    /* text-transform: uppercase; */
+    /* transform: translate(-50%, -50%); */
 }
 
 .subtitle {
+    text-transform: uppercase;
     width: 100%;
     color: grey;
     font-weight: lighter;

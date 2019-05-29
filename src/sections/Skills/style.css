@@ -1,0 +1,19 @@
+#skills {
+
+}
+
+.subcontent {
+    width: 100%;
+    color: grey;
+    font-weight: lighter;
+    font-size: 25px;
+    line-height: 175%;
+}
+
+.half-content {
+    width: 50%;
+    color: grey;
+    font-weight: lighter;
+    font-size: 25px;
+    line-height: 175%;
+}
