@@ -7,28 +7,40 @@ class Skills extends Component {
   state = {
     currencies: [
       {
-        currencyName: 'Bitcoin',
+        currencyName: 'HTML + CSS + JS',
         marketCap: 106330074359
       },
       {
-        currencyName: 'Ethereum',
+        currencyName: 'jQuery',
         marketCap: 32402945322
       },
       {
-        currencyName: 'XRP',
+        currencyName: 'Bootstrap',
         marketCap: 11864383092
       },
       {
-        currencyName: 'Bitcoin Cash',
+        currencyName: 'MySQL + Sequelize',
         marketCap: 9612908814
       },
       {
-        currencyName: 'EOS',
+        currencyName: 'MongoDB + Mongoose',
         marketCap: 4644155391
       },
       {
-        currencyName: 'Stellar',
+        currencyName: 'Express',
         marketCap: 4084424747
+      },
+      {
+        currencyName: 'ReactJS',
+        marketCap: 11864383092
+      },
+      {
+        currencyName: 'NodeJS',
+        marketCap: 11864383092
+      },
+      {
+        currencyName: 'Java',
+        marketCap: 11864383092
       }
     ]
   }
@@ -42,7 +54,7 @@ class Skills extends Component {
           <div className="title-2 ul">&  Experience</div>
           <Graph 
             currencies={this.state.currencies} 
-            graphTitle="This is the graph"
+            graphTitle="languages libraries and frameworks"
           />
           <div className="half-content">
             <p>

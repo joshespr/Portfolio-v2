@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./style.css";
 
 class Graph extends React.Component {
-    state = {}
   
     renderLines() {
       return Array(10).fill(null).map((el, i) => (
@@ -44,6 +43,7 @@ class Graph extends React.Component {
               { this.renderBars() }
             </div>
             
+            <Bar percent={50} />
             <div style={{ width: '12%' }} />
             <Markers />      
           </div>
