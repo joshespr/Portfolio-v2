@@ -44,7 +44,7 @@ class App extends Component {
 
           <a href="#">
           <li>
-          <Link activeClass="active" to="project" spy={true} smooth={true} offset={20} duration= {750}>
+          <Link activeClass="active" to="project" spy={true} smooth={true} offset={120} duration= {750}>
           Project
           </Link>
           </li>
@@ -52,7 +52,7 @@ class App extends Component {
 
           <a href="#">
           <li>
-          <Link activeClass="active" to="contact" spy={true} smooth={true} offset={20} duration= {750}>
+          <Link activeClass="active" to="contact" spy={true} smooth={true} offset={120} duration= {750}>
           Contact
           </Link>
           </li>

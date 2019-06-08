@@ -5,42 +5,15 @@ import "./style.css";
 class Skills extends Component {
 
   state = {
-    currencies: [
+    labels: ["HTML + CSS + JS", "Bootstrap", "jQuery", "MySQL + Sequelize", "MongoDB + Mongoose", "Express", "ReactJS", "NodeJS", "Java", "Github"],
+    datasets: [
       {
-        currencyName: 'HTML + CSS + JS',
-        marketCap: 106330074359
-      },
-      {
-        currencyName: 'jQuery',
-        marketCap: 32402945322
-      },
-      {
-        currencyName: 'Bootstrap',
-        marketCap: 11864383092
-      },
-      {
-        currencyName: 'MySQL + Sequelize',
-        marketCap: 9612908814
-      },
-      {
-        currencyName: 'MongoDB + Mongoose',
-        marketCap: 4644155391
-      },
-      {
-        currencyName: 'Express',
-        marketCap: 4084424747
-      },
-      {
-        currencyName: 'ReactJS',
-        marketCap: 11864383092
-      },
-      {
-        currencyName: 'NodeJS',
-        marketCap: 11864383092
-      },
-      {
-        currencyName: 'Java',
-        marketCap: 11864383092
+        label: "My First dataset",
+        fillColor: "rgba(255,165,0,0.5)",
+        strokeColor: "rgba(255,165,0,0.8)",
+        highlightFill: "rgba(255,165,0,0.75)",
+        highlightStroke: "rgba(255,165,0,1)",
+        data: [85, 60, 85, 90, 45, 55, 65, 92, 5, 95]
       }
     ]
   }
@@ -52,11 +25,7 @@ class Skills extends Component {
         <div className="title-wrapper">
           <div className="title-1">Skills</div>
           <div className="title-2 ul">&  Experience</div>
-          <Graph 
-            currencies={this.state.currencies} 
-            graphTitle="languages libraries and frameworks"
-          />
-          <div className="half-content">
+          <div className="half-content right">
             <p>
             I have experience working as a full-stack developer from a 6-month coding bootcamp program from UW PCE and Trilogy.
             </p>
@@ -64,6 +33,9 @@ class Skills extends Component {
             My main area of profeciency is with MongoDB, Express, React, and Node; along with several libraries revolving the MERN stack, CSS, Javascript, and more.
             </p>
           </div>
+          <Graph 
+          chartData = {this.state}
+          />
         </div>
       </React.Fragment>
     );

@@ -1,101 +1,45 @@
 import React, { Component } from "react";
+import { Bar } from "react-chartjs";
 import "./style.css";
+
+var chartOptions = 
+    {
+        //Boolean - Whether the scale should start at zero, or an order of magnitude down from the lowest value
+        scaleBeginAtZero : true,
+    
+        //Boolean - Whether grid lines are shown across the chart
+        scaleShowGridLines : false,
+    
+        //String - Colour of the grid lines
+        scaleGridLineColor : "inherit",
+    
+        //Number - Width of the grid lines
+        scaleGridLineWidth : 0,
+    
+        //Boolean - Whether to show horizontal lines (except X axis)
+        scaleShowHorizontalLines: false,
+    
+        //Boolean - Whether to show vertical lines (except Y axis)
+        scaleShowVerticalLines: false,
+    
+        //Boolean - If there is a stroke on each bar
+        barShowStroke : true,
+    
+        //Number - Pixel width of the bar stroke
+        barStrokeWidth : 2,
+    
+        //Number - Spacing between each of the X value sets
+        barValueSpacing : 5,
+    
+    };
+
 
 class Graph extends React.Component {
   
-    renderLines() {
-      return Array(10).fill(null).map((el, i) => (
-        <Line 
-          left={i * 10} 
-          key={i}
-        />
-      ))
-    }
-  
-    renderBars() {
-      const { currencies } = this.props;
-      
-      let sumOfAllCurrencies = currencies.reduce((acc, currency) => {
-        return acc + currency.marketCap;
-      }, 0);
-      
-      return currencies.map((currency) => {
-        const percent = (currency.marketCap / sumOfAllCurrencies) * 100; 
-        return (
-          <Bar 
-            percent={percent}
-            key={currency.currencyName}
-          />
-        )
-      });
-    }
-  
     render() {
-      return (
-        <div className="graph-wrapper">
-          <h2> { this.props.graphTitle } </h2>
-          
-          <div className="graph">
-            <BarTextContent currencies={this.props.currencies} />
-            
-            <div className="bar-lines-container">
-              { this.renderLines() }
-              { this.renderBars() }
-            </div>
-            
-            <Bar percent={50} />
-            <div style={{ width: '12%' }} />
-            <Markers />      
-          </div>
-          
-        </div>
-      )
+        return <Bar data={this.props.chartData} options={chartOptions} className="graph-custom" width="550" height="400"/>
     }
-}
-  
-const Markers = () => {
-    const markerArr = Array(11).fill(null);
-    
-    return (
-      <div className="markers">
-        {
-          markerArr.map((el, i) => (
-           <span className="marker" style={{ left: `${i * 10}%` }}>
-            { i * 10 }
-           </span>
-          ))
-        }
-      </div>
-    )
-}
-  
-const Bar = ({ percent }) => {
-    return (
-      <div className="bar" style={{ width: `${percent}%` }} />
-    )
-}
-  
-const BarTextContent = ({ currencies }) => {
-    return (
-      <div className="bar-text-content">
-        {
-          currencies.map((currency) => (
-            <div className="text">
-              {currency.currencyName }
-            </div>
-          ))
-        }
-      </div>
-    )
-}
-  
-const Line = ({ left }) => {
-    return (
-      <div 
-        className="line" 
-        style={{ left: `${left}%` }}
-      />
-    )
 }
 
+// data={chartData} options={chartOptions}
 export default Graph;

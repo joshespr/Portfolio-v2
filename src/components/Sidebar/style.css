@@ -17,4 +17,5 @@
 .sidebar ul li:hover {
     color: orange;
     font-size: 3.1vh;
+    cursor: pointer
 }

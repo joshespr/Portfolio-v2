@@ -1,5 +1,6 @@
 #skills {
-
+    padding:0 0 10vh 0;
+    /* margin */
 }
 
 .subcontent {
@@ -16,4 +17,8 @@
     font-weight: lighter;
     font-size: 25px;
     line-height: 175%;
+}
+
+.right {
+    float: left;
 }
