@@ -5,44 +5,33 @@ import ReactPageScroller from "react-page-scroller";
 import {Pager} from "react-bootstrap";
 import "./style.css";
 
-const styles = {
-    pic: {
-      width: 300,
-      height: "auto",
-    }
-  }
-  
- 
 class Console  extends Component {
 
-    // scrollUp = () => {
-    //     scroller.scrollTo(-150, {
-    //         duration: 750,
-    //         smooth: true,
-    //     });
-    // }
     
-    // scrollDown = () => {
-    //     scroller.scrollTo(this.state.slide, {
-    //         duration: 750,
-    //         smooth: true,
-    //     });
-    // }
-
     constructor(props) {
         super(props);
         this.state = {currentPage: 1};
         this._pageScroller = null;
     }
-
+    
     goToPage = (eventKey) => {
         this._pageScroller.goToPage(eventKey);
     };
-
+    
+    
+    scrollUp = () => {
+        const nextSlide = this.state.currentPage - 2;
+        this._pageScroller.goToPage(nextSlide);
+    };
+    
+    scrollDown = () => {
+        const nextSlide = this.state.currentPage;
+        this._pageScroller.goToPage(nextSlide);
+    };
+    
     pageOnChange = (number) => {
         this.setState({currentPage: number});
     };
-
 
     render() {
 
@@ -64,7 +53,7 @@ class Console  extends Component {
 
                 <div className="prevnext">
                     <button className="pn-btn" id="prev" onClick={this.scrollUp}></button>
-                    <button className="pn-btn" id="next" onClick={this.scrollToMyRef}></button>
+                    <button className="pn-btn" id="next" onClick={this.scrollDown}></button>
                 </div>
             </section>
         );
