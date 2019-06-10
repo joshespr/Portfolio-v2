@@ -1,0 +1,84 @@
+.console-projects {
+    width: 960px;
+    height: auto;
+    background: #f1f1f1;
+    background: white;
+    padding: 10px;
+    margin: 5vh auto 0 auto;
+    overflow: hidden;
+    position: static;
+}
+
+.preview-proj {
+    width: 960px;
+    height: auto;
+    height: 610px;
+    background: white;
+    color: black;
+    font-family:'Raleway',sans-serif;
+    font-size: 35px;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+/* ================================================= */
+
+.prevnext {
+    position: relative;
+    width: 4vmin;
+    height: 8vmin;
+    left: 58em;
+    bottom: 5em;
+    color: #fff;
+    margin: auto 0;
+}
+
+
+.pn-btn {
+    color: #343434;
+    width: 100%;
+    height: 50%;
+    border: 0;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+#prev, #next {
+    position: relative;
+    cursor: pointer;
+}
+
+#prev:focus, #next:focus {
+    outline: none;
+}
+
+#prev:hover:after, #next:hover:after {
+    color: orange;
+}
+
+#prev:after, #next:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+
+#prev:after {
+    content: "↑";
+    /* content: "^"; */
+
+}
+
+#next:after {
+    content: "↓";
+    /* content: "^";
+    transform: scaleY(-1); */
+
+}
