@@ -1,106 +1,90 @@
 [
   {
-    "id": 1,
-    "name": "Wireframe",
-    "type": "HTML + CSS",    
-    "description": "My first webpage.",
-    "link": "https://joshespr.github.io/1-Wireframe/",    
-    "image": "example.png"
-  },
-  {
-    "id": 2,
-    "name": "Responsive portfolio",
-    "type": "HTML + CSS",    
-    "description": "It's this. Minimize me!",
-    "link": "https://espr-portfolio-v2.herokuapp.com/",    
-    "image": "example.png"
-  },
-  {
-    "id": 3,
-    "name": "Psychic Game",
-    "type": "Javascript",    
-    "description": "Guess which letter the computer is thinking in this very simple browser game powered by javascript code.",
-    "link": "https://github.com/joshespr/15-Clicky-game",    
-    "image": "example.png"
-  },
-  {
-    "id": 4,
-    "name": "Word Guess",
-    "type": "Javascript",    
-    "description": "A twist from the 'Psychic Game' broswer app where you guess which word the computer is thinking of instead of a letter.",
-    "link": "https://github.com/joshespr/15-Clicky-game",    
-    "image": "example.png"
-  },
-  {
-    "id": 5,
-    "name": "Crystal Collector",
-    "type": "jQuery",    
-    "description": "A fun and interactive web browsers game where you match a random target value by clicking on four crystals with unknown values.",
-    "link": "https://github.com/joshespr/15-Clicky-game",    
-    "image": "example.png"
-  },
-  {
-    "id": 7,
-    "name": "Trivia Game",
-    "type": "jQuery",    
-    "description": "A quick and fun trivia game that accurately measures a person's intelligence with only five questions. 9 out of 10 dentists approve.",
-    "link": "https://github.com/joshespr/15-Clicky-game",    
-    "image": "example.png"
-  },
-  {
-    "id": 9,
-    "name": "RPS Advance",
-    "type": "jQuery",    
-    "description": "RPS advance is a simple javascript app which allows a user to play Rock, Paper, Scissors against other players.",
-    "link": "https://github.com/joshespr/15-Clicky-game",    
-    "image": "example.png"
-  },
-  {
-    "id": 10,
-    "name": "Liri",
-    "type": "Node JS",    
-    "description": "RPS advance is a simple javascript app which allows a user to play Rock, Paper, Scissors against other players.",
-    "link": "https://github.com/joshespr/15-Clicky-game",    
-    "image": "example.png"
-  },
-  {
-    "id": 11,
-    "name": "Word Guess Constructor",
-    "type": "Node JS",    
-    "description": "This CLI app allows the user to play a hangman style word guessing game of popular TV show titles.",
-    "link": "https://github.com/joshespr/15-Clicky-game",    
-    "image": "example.png"
-  },
-  {
-    "id": 12,
-    "name": "Bamazon",
-    "type": "MySQL",    
-    "description": "Bamazon is an Amazon-like storefront CLI app that connects with MySQL. The app will interact with a MySQL database either as a customer, manager, or supervisor.",
-    "link": "https://github.com/joshespr/15-Clicky-game",    
-    "image": "example.png"
-  },
-  {
-    "id": 13,
-    "name": "Friend Finder",
-    "type": "Express",    
-    "description": "Friend Finder is a compatibility-based user matching application -- basically a dating app. This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.",
-    "link": "https://github.com/joshespr/15-Clicky-game",    
-    "image": "example.png"
-  },
-  {
-    "id": 14,
-    "name": "Burgers",
-    "type": "Handlebars",    
-    "description": "Burgers is a full-stack browser application which logs your burger orders and the burgers that you've eaten.",
-    "link": "https://github.com/joshespr/15-Clicky-game",    
-    "image": "example.png"
+    "id": 17,
+    "name": "Trails",
+    "type": "React JS",    
+    "description": "This app is a good resource for hikers to find trails as well as build a good community among them at the same time. Complete with an authentication, search, and save function.",
+    "link": "https://trails-v2.herokuapp.com/",    
+    "image": "trails.png"
   },
   {
     "id": 16,
     "name": "Clicky Game",
     "type": "React JS",    
     "description": "The Clicky Game is a react application game with characters from the popular tv show, 'The Office.'",
-    "link": "https://github.com/joshespr/15-Clicky-game",    
-    "image": "example.png"
+    "link": "https://still-reaches-94223.herokuapp.com/",    
+    "image": "clicky.png"
+  },
+  {
+    "id": 14,
+    "name": "Burgers",
+    "type": "Handlebars",    
+    "description": "Burgers is a full-stack browser application which logs your burger orders and the burgers that you've eaten.",
+    "link": "https://limitless-reef-65456.herokuapp.com/",    
+    "image": "burgers.png"
+  },
+  {
+    "id": 13,
+    "name": "Friend Finder",
+    "type": "Express",    
+    "description": "Friend Finder is a compatibility-based user matching application -- basically a dating app. This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match from a very familiar cast.",
+    "link": "https://powerful-island-67223.herokuapp.com/",    
+    "image": "friend-match.png"
+  },
+  {
+    "id": 12,
+    "name": "Bamazon",
+    "type": "MySQL",    
+    "description": "Bamazon is an Amazon-like storefront CLI app that connects with MySQL. The app will interact with a MySQL database either as a customer, manager, or supervisor.",
+    "link": "https://github.com/joshespr/10-Bamazon",    
+    "image": "bamazon.png"
+  },
+  {
+    "id": 11,
+    "name": "Word Guess Constructor",
+    "type": "Node JS",    
+    "description": "This CLI app allows the user to play a hangman style word guessing game of popular TV show titles.",
+    "link": "https://github.com/joshespr/9-Word-guess-constructor",    
+    "image": "word-guess.bmp"
+  },
+  {
+    "id": 10,
+    "name": "Liri",
+    "type": "Node JS",    
+    "description": "The Language Interpretation and Recognition Interface, or Liri, is a command line node app that takes in parameters and gives you back data. There are currently 4 commands in this CLI app that retrieve data from Spotify for songs, Bands in Town for concerts, and OMDB for movies.",
+    "link": "https://github.com/joshespr/8-Liri",    
+    "image": "liri.bmp"
+  },
+  {
+    "id": 9,
+    "name": "RPS Advance",
+    "type": "jQuery",    
+    "description": "RPS advance is a simple javascript app which allows a user to play Rock, Paper, Scissors against other players. (2 or more players required)",
+    "link": "https://joshespr.github.io/7-RPS-advance/",    
+    "image": "rps-match.bmp"
+  },
+  {
+    "id": 7,
+    "name": "Trivia Game",
+    "type": "jQuery",    
+    "description": "A quick and fun trivia game that accurately measures a person's intelligence with only five questions. 9 out of 10 dentists approve.",
+    "link": "https://joshespr.github.io/5-Trivia-game/",    
+    "image": "trivia.png"
+  },
+  {
+    "id": 5,
+    "name": "Crystal Collector",
+    "type": "jQuery",    
+    "description": "A fun and interactive web browser game where you match a random target value by clicking on four crystals with unknown values.",
+    "link": "https://joshespr.github.io/4-Crystal-collector/",    
+    "image": "crystal.png"
+  },
+  {
+    "id": 3,
+    "name": "Psychic Game",
+    "type": "Javascript",    
+    "description": "Guess which letter the computer is thinking in this very simple browser game powered by javascript code.",
+    "link": "https://joshespr.github.io/3-Psychic-game/",    
+    "image": "psychic.png"
   }
 ]

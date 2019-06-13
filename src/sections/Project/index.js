@@ -20,19 +20,6 @@ class Project extends Component {
         <div className="title-wrapper">
           <div className="title-1">My <span className="title-2">Projects :</span></div>
 
-          {/* <Wrapper>
-            {this.state.projects.map(projects => (
-              <Gallery
-                id={projects.id}
-                name={projects.name}
-                type={projects.type}
-                description={projects.description}
-                link={projects.link}
-                image={projects.image}
-              />
-            ))}
-          </Wrapper> */}
-
           <Console>
             {this.state.projects.map(projects => (
               <GalleryV2
