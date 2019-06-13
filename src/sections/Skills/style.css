@@ -22,3 +22,51 @@
 .right {
     float: left;
 }
+
+@media (max-width: 980px) {
+    #skills {
+        width: 118%;
+        height: 122vh; 
+    }
+
+    .half-content {
+        width: 100%;
+    }
+
+    .right, .graph-custom {
+        float: none;
+    }
+
+}
+
+@media (max-width: 768px) {
+    #skills {
+        width: 145%;
+        height: 150vh; 
+    }
+
+    .half-content {
+        width: 100%;
+    }
+
+    .right, .graph-custom {
+        float: none;
+    }
+
+}
+
+@media (max-width: 640px) {
+    #skills {
+        width: 118%;
+        height: 170.5vh; 
+    }
+
+    .half-content {
+        width: 100%;
+    }
+
+    .right, .graph-custom {
+        float: none;
+    }
+
+}

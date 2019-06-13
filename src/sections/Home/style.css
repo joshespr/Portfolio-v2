@@ -42,3 +42,21 @@
     z-index: -1;
     opacity: 0.4;
 }
+
+@media (max-width: 980px) {
+    .pattern {
+        height: 122vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .pattern {
+        height: 150vh;
+    }
+}
+
+@media (max-width: 640px) {
+    .pattern {
+        height: 170.5vh;
+    }
+}

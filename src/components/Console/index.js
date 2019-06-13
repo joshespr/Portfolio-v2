@@ -36,7 +36,7 @@ class Console  extends Component {
     render() {
 
         return (
-            <section className="console-projects">
+            <div className="console-projects">
                 
                 <ReactPageScroller 
                     className="preview-proj" 
@@ -55,7 +55,7 @@ class Console  extends Component {
                     <button className="pn-btn" id="prev" onClick={this.scrollUp}></button>
                     <button className="pn-btn" id="next" onClick={this.scrollDown}></button>
                 </div>
-            </section>
+            </div>
         );
     }
 }

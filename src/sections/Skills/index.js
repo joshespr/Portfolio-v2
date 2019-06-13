@@ -13,7 +13,7 @@ class Skills extends Component {
         strokeColor: "rgba(255,165,0,0.8)",
         highlightFill: "rgba(255,165,0,0.75)",
         highlightStroke: "rgba(255,165,0,1)",
-        data: [85, 60, 85, 90, 45, 55, 65, 92, 5, 95]
+        data: [80, 65, 80, 85, 40, 50, 60, 87, 5, 95]
       }
     ]
   }

@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import Wrapper from '../../components/Wrapper';
-import Gallery from '../../components/Gallery';
 import Console from '../../components/Console';
 import GalleryV2 from '../../components/Gallery.V2';
 import projects from '../../projects.json';
