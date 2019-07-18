@@ -4,15 +4,46 @@
 
 }
 
-.subcontent {
-    width: 100%;
-    color: grey;
-    font-weight: lighter;
-    font-size: 25px;
-    line-height: 175%;
+.contact-frm {
+    width: 75vh;
+    height: auto;
+    overflow: hidden;
 }
 
-.underline {
-    width: 45.5vh;
-    border-bottom: 2.5px solid orange;
+.input {
+    width: 45%;
+    background-color: #555;
+    color: #f1f1f1;
+    border: none;
+    height: 2vh;
+    padding: 15px;
+    font-size: 2vh;
+    margin-top: 1vh;
+    /* text-indent: 10px; */
+    line-height: none;
+}
+
+.name-inp {
+    margin-right: 1.1vh;
+}
+
+.subject-inp, .message-inp {
+    width: 100%;
+
+}
+
+.message-inp {
+    height: 15vh;
+    font-family: "Raleway";
+}
+
+.btn-send {
+    margin-top: 1vh;
+    height: auto;
+    padding: 1vh 2vh;
+    border:none;
+    background-color: orange; 
+    color: #f1f1f1;
+    font-size: 2vh; 
+    float: right;
 }
