@@ -29,7 +29,8 @@
 .prevnext {
     position: relative;
     width: 4vmin;
-    height: 8vmin;
+    height: 0;
+    /* height: 8vmin; */
     left: 58em;
     bottom: 5em;
     color: #fff;
@@ -43,7 +44,8 @@
     height: 50%;
     border: 0;
     background-color: transparent;
-    font-size: 20px;
+    font-size: 25px;
+    /* margin-top: 5vh; */
 }
 
 #prev, #next {
@@ -74,6 +76,7 @@
 #prev:after {
     content: "↑";
     /* content: "^"; */
+    margin-bottom: 4vh;
 
 }
 
@@ -81,5 +84,6 @@
     content: "↓";
     /* content: "^";
     transform: scaleY(-1); */
+    /* margin-top: 1vh; */
 
 }
